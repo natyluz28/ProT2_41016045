@@ -1,0 +1,74 @@
+body{
+    background: rgb(0,0,5);
+background: linear-gradient(90deg, rgba(0,0,5,1) 0%, rgba(7,7,80,1) 35%, rgba(6,88,208,1) 100%);
+text-align: center;
+text-shadow: yellowgreen;
+font-family: "Playwrite NZ", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+}
+
+
+.texto{
+    margin: 0px;
+    padding: 10px;
+    background: rgb(7,224,226);
+background: linear-gradient(297deg, rgba(7,224,226,1) 51%, rgba(6,88,208,1) 89%);
+
+}
+
+.texto p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    
+    color: black;
+    text-align: center;
+    text-align: justify;
+    text-shadow: yellowgreen;
+    font-family: "Playwrite NZ", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+}
+  
+.card-header{
+    
+    text-align: center;
+
+
+}
+.card-header h1{
+    color: aliceblue;
+}
+
+footer {
+    background-color: #290e27; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; 
+}
+
+
+    div.social {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        flex: content;
+        align-items: flex-end;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    a {
+        text-align: center;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .social a{
+        color: aliceblue;
+        padding: 50px;
+    }

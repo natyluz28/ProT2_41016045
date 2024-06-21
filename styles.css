@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+     font-family: "Playwrite NZ", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    header {
+        text-align: center;
+    }
+    header img {
+        max-width: 48%;
+        height: auto;
+    }
+
+    p{
+ border-width: 90%;
+ border-color: #cbce21;
+ color: #520404;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+
+h1{
+    text-align: center;
+}
+h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+section {
+    background-color: #e09752;
+    padding: 20px; /* espaciado para la sección de 20 pixeles */}
+        .galeria {
+            text-align: center;
+        }
+
+        .galeria h1 {
+            margin-bottom: 20px;
+        }
+
+        .galeria .images {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px; /* Espacio entre las imágenes */
+        }
+
+
+        .galeria .images img {
+            max-width: 350px;
+            height: auto;
+            display: block;
+        }
+  
+        .pie {
+            margin-top: 10px; /* Espacio superior del párrafo */
+            color: black; /* Color del texto */
+            padding: 10px; /* Relleno alrededor del texto */
+            width: 100%; /* Asegura que el párrafo tome el ancho completo del contenedor */
+            text-align: center;
+            height: auto;
+        }
+
+    footer {
+    background-color: #b44c48; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; }
+    div.social {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        flex: content;
+        align-items: flex-end;
+    }
+    a {
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    .footer-content {
+        background-color: #b38915;
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+

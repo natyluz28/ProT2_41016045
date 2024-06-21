@@ -1,0 +1,41 @@
+body{
+    background: rgb(7,224,226);
+background: linear-gradient(297deg, rgba(7,224,226,1) 51%, rgba(6,88,208,1) 89%);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.registro{
+    width: 1200px;
+    height: 580px;
+    margin: 50px;
+    padding-top: 20px;
+    padding: 50px;
+    background-color: whitesmoke;
+    color: rgb(99, 28, 167);
+    
+}
+
+h3{
+    text-align: center;
+    background-color: aquamarine;
+}
+h4{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: #290e27; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; 
+}
+h2{
+    text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    
+    .social{
+        text-align: center;
+    }

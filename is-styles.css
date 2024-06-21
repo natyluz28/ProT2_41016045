@@ -1,0 +1,39 @@
+.body{
+    background: rgb(0,0,5);
+background: linear-gradient(90deg, rgba(0,0,5,1) 0%, rgba(7,7,80,1) 35%, rgba(6,88,208,1) 100%);
+text-align: center;
+text-shadow: yellowgreen;
+font-family: "Playwrite NZ", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+
+}
+
+h3{
+    text-align: center;
+}
+form{
+    background-color: blueviolet;
+    padding: 30px;
+      margin: 100px;
+      width: 1000px;
+      height: 300px;
+}
+
+footer {
+    background-color: #290e27; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; 
+}
+
+h2{
+text-align: center;
+}
+a{
+    text-align: center;
+}
+
+.social{
+    text-align: center;
+}
