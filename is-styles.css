@@ -13,18 +13,14 @@ font-family: "Playwrite NZ", cursive;
 h3{
     text-align: center;
 }
-form{
-    background-color: blueviolet;
-    padding: 30px;
-      margin: 100px;
-      width: 1000px;
-      height: 300px;
-}
+
 
 footer {
     background-color: #290e27; /* Color de fondo del footer */
     color: #fff;
     padding: 20px 0; 
+    text-align: center;
+    margin-top: 2rem;
 }
 
 h2{
