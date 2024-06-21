@@ -7,11 +7,13 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 .registro{
     width: 1200px;
     height: 580px;
-    margin: 50px;
     padding-top: 20px;
-    padding: 50px;
     background-color: whitesmoke;
     color: rgb(99, 28, 167);
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
     
 }
 
@@ -28,7 +30,10 @@ footer {
     background-color: #290e27; /* Color de fondo del footer */
     color: #fff;
     padding: 20px 0; 
-}
+    text-align: center;
+    margin-top: 2rem;
+        }
+
 h2{
     text-align: center;
     }
