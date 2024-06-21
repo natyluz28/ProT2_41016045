@@ -3,14 +3,15 @@ body{
 background: linear-gradient(297deg, rgba(7,224,226,1) 51%, rgba(6,88,208,1) 89%);
 }
 
-.btn-group{
+.boton{
     background-color: rgb(204, 218, 14);
     color: aliceblue;
-    padding: 30px;
+    padding: 20px;
     margin: 0px;
     text-align: center;
     height: 100px;
     width: 1366px;
+
 }
 
 h3{
@@ -44,6 +45,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 20px;
    display: flex;
         justify-content: space-between; 
+        flex-wrap: wrap;
+        gap: 1rem;
 
       
 }
@@ -68,6 +71,8 @@ footer {
     background-color: #290e27; /* Color de fondo del footer */
     color: #fff;
     padding: 20px 0; 
+    text-align: center;
+    margin-top: 1rem;
 }
 
 
@@ -82,13 +87,28 @@ footer {
         padding: 20px;
     }
     
-    a {
-        text-align: center;
-        color: white;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    header img {
+        width: 70%;
+        height: auto;
+    }
+   
+    .mapa-telefono .box1, .mapa-telefono .box2 {
+        flex: 1 1 calc(50% - 1rem);
+        box-sizing: border-box;
+    }
+    @media (max-width: 768px) {
+        .mapa-telefono .box1, .mapa-telefono .box2 {
+            flex: 1 1 100%;
+        }
     }
     
-    .social a{
+    
+    .social a {
+        margin: 0 0.5rem;
+        text-decoration: none;
         color: aliceblue;
         padding: 50px;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
