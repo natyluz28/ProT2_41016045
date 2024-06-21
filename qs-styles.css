@@ -18,9 +18,6 @@ background: linear-gradient(297deg, rgba(7,224,226,1) 51%, rgba(6,88,208,1) 89%)
 
 }
 
-.texto p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 p{
     
@@ -48,6 +45,8 @@ footer {
     background-color: #290e27; /* Color de fondo del footer */
     color: #fff;
     padding: 20px 0; 
+    text-align: center;
+            margin-top: 1rem;
 }
 
 
@@ -71,4 +70,6 @@ footer {
     .social a{
         color: aliceblue;
         padding: 50px;
+        margin: 0 0.5rem;
+            text-decoration: none;
     }
