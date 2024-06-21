@@ -6,13 +6,7 @@ body{
       font-style: normal;
     }
     
-    header {
-        text-align: center;
-    }
-    header img {
-        max-width: 48%;
-        height: auto;
-    }
+   
 
     p{
  border-width: 90%;
@@ -49,6 +43,8 @@ section {
             justify-content: space-around;
             align-items: center;
             gap: 10px; /* Espacio entre las imágenes */
+            flex-wrap: wrap;
+    
         }
 
 
@@ -58,19 +54,19 @@ section {
             display: block;
         }
   
-        .pie {
-            margin-top: 10px; /* Espacio superior del párrafo */
-            color: black; /* Color del texto */
-            padding: 10px; /* Relleno alrededor del texto */
-            width: 100%; /* Asegura que el párrafo tome el ancho completo del contenedor */
-            text-align: center;
-            height: auto;
-        }
+    
 
     footer {
     background-color: #b44c48; /* Color de fondo del footer */
     color: #fff;
-    padding: 20px 0; }
+    padding: 20px 0; 
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+
     div.social {
         text-align: center;
         margin-top: 10px;
@@ -81,11 +77,43 @@ section {
     a {
         text-align: center;
         color: rgb(0, 0, 0);
+       
     }
     .footer-content {
         background-color: #b38915;
     max-width: 800px; /* Ancho máximo del contenido del footer */
     margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
     text-align: center; 
+}
+
+header {
+    text-align: center;
+}
+header img {
+   
+    max-width: 48%;
+        height: auto;
+}
+
+
+.galeria .foto, .galeria .pie {
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+    margin-top: 10px; /* Espacio superior del párrafo */
+            color: black; /* Color del texto */
+            padding: 10px; /* Relleno alrededor del texto */
+            width: 100%; /* Asegura que el párrafo tome el ancho completo del contenedor */
+            text-align: center;
+            height: auto;
+}
+@media (max-width: 768px) {
+    .galeria .foto, .galeria .pie {
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+@media (max-width: 576px) {
+    .galeria .foto, .galeria .pie {
+        flex: 1 1 100%;
+    }
 }
 
