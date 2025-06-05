@@ -1,83 +1,46 @@
-/* Tipografía general */
-body {
-    font-family: 'Playwrite NZ', sans-serif;
-    background-color: #fff8f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar Sesión - Mega Burguer</title>
+  
+  <!-- Vincular con el archivo CSS personalizado -->
+  <link rel="stylesheet" href="is-styles.css" />
+</head>
+<body>
 
-/* Encabezado */
-header {
-    background-color: white;
-    padding: 10px 0;
-}
+  <!-- Encabezado con imagen -->
+  <header>
+    <img src="https://source.unsplash.com/1200x400/?burger,restaurant" alt="Mega Burguer" />
+  </header>
 
-header img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-}
+  <!-- Contenedor login -->
+  <main>
+    <div class="login-container">
+      <h3>Iniciar Sesión</h3>
+      <form action="#" method="post">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" />
 
-/* Contenedor del formulario de login */
-.login-container {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #ffdab9;
-    border: 2px solid #b30000;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" id="password" name="password" required placeholder="********" />
 
-/* Título del login */
-.login-container h3 {
-    text-align: center;
-    color: #b30000;
-    margin-bottom: 25px;
-    font-weight: bold;
-}
+        <button type="submit" class="btn-primary">Ingresar</button>
+      </form>
+    </div>
+  </main>
 
-/* Etiquetas del formulario */
-form .form-label {
-    font-weight: 500;
-}
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mega Burguer. Todos los derechos reservados.</p>
+    <div class="social">
+      <a href="https://www.instagram.com/naty.luz/" target="_blank" rel="noopener noreferrer">Instagram</a> |
+      <a href="https://www.yahoo.com/naty.luz/" target="_blank" rel="noopener noreferrer">Yahoo</a> |
+      <a href="https://talentosdigitales.ar/" target="_blank" rel="noopener noreferrer">Talentos Digitales</a>
+    </div>
+  </footer>
 
-/* Botón de enviar */
-form .btn-primary {
-    background-color: #b30000;
-    border: none;
-    width: 100%;
-    padding: 10px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    border-radius: 10px;
-}
-
-form .btn-primary:hover {
-    background-color: #ff3300;
-}
-
-/* Footer */
-footer {
-    background-color: #b30000;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    margin-top: 50px;
-}
-
-footer .social h2 {
-    margin-bottom: 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 5px;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
+</body>
+</html>
