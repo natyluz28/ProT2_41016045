@@ -1,0 +1,122 @@
+/* is-styles.css */
+
+/* Fuente base igual a la del sitio */
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f0e6f7; /* un violeta muy suave para dar contraste con azul violeta */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header imagen */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(138, 43, 226, 0.4); /* azul violeta */
+}
+
+/* Contenedor login centrado */
+.login-container {
+  max-width: 400px;
+  background-color: blueviolet;
+  padding: 30px;
+  margin: 50px auto 80px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.6);
+  color: #fff;
+}
+
+/* Título formulario */
+.login-container h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+/* Etiquetas */
+.login-container label {
+  font-weight: 600;
+}
+
+/* Inputs */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Enfoque input */
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px 3px #d8b3ff; /* luz violeta suave */
+}
+
+/* Botón */
+.login-container button[type="submit"] {
+  width: 100%;
+  background-color: #d8b3ff; /* violeta claro */
+  color: #4b0082; /* indigo oscuro */
+  font-weight: 700;
+  padding: 12px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button[type="submit"]:hover {
+  background-color: #b08de0; /* violeta medio */
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px 15px;
+  background-color: #4b0082; /* índigo */
+  color: #fff;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+  margin-top: auto;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+footer .social {
+  font-size: 1rem;
+}
+
+footer .social a {
+  color: #d8b3ff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .social a:hover {
+  color: #f0e6f7;
+}
