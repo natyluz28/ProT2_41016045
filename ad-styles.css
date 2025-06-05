@@ -1,0 +1,101 @@
+/* Fuente general */
+body {
+    font-family: 'Playwrite NZ', sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+    border-bottom: 4px solid #b30000;
+}
+
+/* Botones de navegación */
+.btn-group .btn {
+    margin: 0 5px;
+    background-color: #b30000;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-group .btn:hover {
+    background-color: #ff3300;
+}
+
+/* Títulos y subtítulos */
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: #b30000;
+    font-weight: bold;
+}
+
+/* Carrusel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Mapa y contacto */
+.mapa-telefono {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 20px;
+    background-color: #fff3e6;
+    border-radius: 10px;
+}
+
+.box1,
+.box2 {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.box2 h4 {
+    color: #b30000;
+    margin-bottom: 15px;
+}
+
+.box2 p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #b30000;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 50px;
+}
+
+footer .social h2 {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
